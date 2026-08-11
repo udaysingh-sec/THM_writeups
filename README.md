@@ -1,98 +1,49 @@
-# \# TryHackMe Writeups
+# TryHackMe Writeups
 
-# 
+My learning and investigation writeups from the TryHackMe SOC Level 1 path.
 
-# My learning and investigation writeups from the TryHackMe SOC Level 1 path.
+This repository documents the concepts, techniques, tools, and investigation methods I learn while working through the path.
 
-# 
+## 🎯 Focus Areas
 
-# This repository documents the concepts, techniques, tools, and investigation methods I learn while working through the path.
+- Security Operations (SOC)
+- SIEM & Log Analysis
+- Splunk
+- Windows Event Logs
+- Network Security
+- Incident Investigation
+- MITRE ATT&CK
+- Threat Detection
 
-# 
+## 🛠️ Tools & Technologies
 
-# \## 🎯 Focus Areas
+- Splunk
+- Windows Event Logs
+- Sysmon
+- MITRE ATT&CK
+- PowerShell
+- Linux
+- Networking
 
-# 
+## 📚 What I Document
 
-# \- Security Operations (SOC)
+For each room, I focus on:
 
-# \- SIEM \& Log Analysis
+- Investigation methodology
+- Important concepts
+- Tools and commands used
+- Relevant logs and artifacts
+- Indicators of Compromise (IOCs)
+- MITRE ATT&CK techniques
+- Key lessons learned
 
-# \- Splunk
+## ⚠️ Disclaimer
 
-# \- Windows Event Logs
+These writeups are created for educational and documentation purposes.
 
-# \- Network Security
+I avoid publishing flags or information that would undermine the learning objectives of TryHackMe rooms.
 
-# \- Incident Investigation
+## 🔗 Profiles
 
-# \- MITRE ATT\&CK
-
-# \- Threat Detection
-
-# 
-
-# \## 🛠️ Tools \& Technologies
-
-# 
-
-# \- Splunk
-
-# \- Windows Event Logs
-
-# \- Sysmon
-
-# \- MITRE ATT\&CK
-
-# \- PowerShell
-
-# \- Linux
-
-# \- Networking
-
-# 
-
-# \## 📚 What I Document
-
-# 
-
-# For each room, I focus on:
-
-# 
-
-# \- Investigation methodology
-
-# \- Important concepts
-
-# \- Tools and commands used
-
-# \- Relevant logs and artifacts
-
-# \- Indicators of Compromise (IOCs)
-
-# \- MITRE ATT\&CK techniques
-
-# \- Key lessons learned
-
-# 
-
-# \## ⚠️ Disclaimer
-
-# 
-
-# These writeups are created for educational and documentation purposes.
-
-# 
-
-# I avoid publishing flags or information that would undermine the learning objectives of TryHackMe rooms.
-
-# 
-
-# \## 🔗 Profiles
-
-# 
-
-# \- TryHackMe: https://tryhackme.com/p/Udaysingh5352
-
-# \- LinkedIn: https://www.linkedin.com/in/uday-singh-b08b5734b/
-
+- TryHackMe: https://tryhackme.com/p/Udaysingh5352
+- LinkedIn: https://www.linkedin.com/in/uday-singh-b08b5734b/
