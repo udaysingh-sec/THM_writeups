@@ -25,6 +25,12 @@ This repository documents the concepts, techniques, tools, and investigation met
 - Linux
 - Networking
 
+## 🧪 TryHackMe Rooms
+
+| Room | Topics |
+|------|--------|
+| [Benign](./benign/) | Windows, Splunk, Incident Investigation |
+
 ## 📚 What I Document
 
 For each room, I focus on:
