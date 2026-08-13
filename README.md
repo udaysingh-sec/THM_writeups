@@ -29,7 +29,7 @@ This repository documents the concepts, techniques, tools, and investigation met
 
 | Room | Topics |
 |------|--------|
-| [Benign](./benign/) | Windows, Splunk, Incident Investigation |
+| [Benign](./Benign/) | Windows, Splunk, Incident Investigation |
 
 ## 📚 What I Document
 
