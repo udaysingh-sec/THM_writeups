@@ -45,9 +45,9 @@ For each room, I focus on:
 
 ## ⚠️ Disclaimer
 
-These writeups are created for educational and documentation purposes.
+These write-ups are created for educational and documentation purposes.
 
-I avoid publishing flags or information that would undermine the learning objectives of TryHackMe rooms.
+They document my approach to solving cybersecurity challenges, including investigation steps, tools, queries, findings, and answers.
 
 ## 🔗 Profiles
 
