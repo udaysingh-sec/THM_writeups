@@ -289,3 +289,7 @@ This challenge provided practical experience with:
 | Domain                | `controlc.com`                  |
 | URL                   | `https://controlc.com/e4d11035` |
 | Execution Date        | `2022-03-04`                    |
+
+## Conclusion
+
+The Benign challenge provided hands-on experience investigating Windows endpoint activity using Splunk. By correlating users, processes, command-line activity, and timestamps, I was able to trace suspicious activity and identify the payload download. The challenge reinforced the importance of correlating multiple log sources and understanding how legitimate Windows utilities can be abused during an attack.
