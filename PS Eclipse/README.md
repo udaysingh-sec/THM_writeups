@@ -40,7 +40,7 @@ C:\Windows\Temp\OUTSTANDING_GUTTER.exe
 
 **Answer:** `OUTSTANDING_GUTTER.exe`
 
-![Q1](../images/PS-Eclipse/ps-eclipse-q1.png)
+![Q1](../images/ps-eclipse-q1.png)
 
 ---
 
@@ -68,7 +68,7 @@ http://886e-181-215-214-32.ngrok.io/OUTSTANDING_GUTTER.exe
 
 **Answer:** `hxxp[://]886e-181-215-214-32[.]ngrok[.]io`
 
-![Q2](../images/PS-Eclipse/ps-eclipse-q2.png)
+![Q2](../images/ps-eclipse-q2.png)
 
 ---
 
@@ -95,7 +95,7 @@ C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
 
 **Answer:** `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe`
 
-![Q3](../images/PS-Eclipse/ps-eclipse-q3.png)
+![Q3](../images/ps-eclipse-q3.png)
 
 ---
 
@@ -122,7 +122,7 @@ The command used `schtasks.exe` to create a scheduled task configured to run as 
 "C:\Windows\system32\schtasks.exe" /Create /TN OUTSTANDING_GUTTER.exe /TR C:\Windows\Temp\COUTSTANDING_GUTTER.exe /SC ONEVENT /EC Application /MO *[System/EventID=777] /RU SYSTEM /f
 ```
 
-![Q4](../images/PS-Eclipse/ps-eclipse-q4.png)
+![Q4](../images/ps-eclipse-q4.png)
 
 ---
 
@@ -147,7 +147,7 @@ Command: "C:\Windows\system32\schtasks.exe" /Run /TN "OUTSTANDING_GUTTER.exe"
 NT AUTHORITY\SYSTEM;"C:\Windows\system32\schtasks.exe" /Run /TN "OUTSTANDING_GUTTER.exe"
 ```
 
-![Q5](../images/PS-Eclipse/ps-eclipse-q5.png)
+![Q5](../images/ps-eclipse-q5.png)
 
 ---
 
@@ -193,7 +193,7 @@ C:\Windows\Temp\script.ps1
 
 **Answer:** `script.ps1`
 
-![Q7](../images/PS-Eclipse/ps-eclipse-q7.png)
+![Q7](../images/ps-eclipse-q7.png)
 
 ---
 
@@ -215,7 +215,7 @@ BlackSun.ps1
 
 **Answer:** `BlackSun.ps1`
 
-![Q8](../images/PS-Eclipse/ps-eclipse-q8.png)
+![Q8](../images/ps-eclipse-q8.png)
 
 ---
 
@@ -242,7 +242,7 @@ C:\Users\keegan\Downloads\vasg6b0wmw029hd\BlackSun_README.txt
 
 **Answer:** `C:\Users\keegan\Downloads\vasg6b0wmw029hd\BlackSun_README.txt`
 
-![Q9](../images/PS-Eclipse/ps-eclipse-q9.png)
+![Q9](../images/ps-eclipse-q9.png)
 
 ---
 
@@ -269,7 +269,7 @@ C:\Users\Public\Pictures\blacksun.jpg
 
 **Answer:** `C:\Users\Public\Pictures\blacksun.jpg`
 
-![Q10](../images/PS-Eclipse/ps-eclipse-q10.png)
+![Q10](../images/ps-eclipse-q10.png)
 
 ---
 
