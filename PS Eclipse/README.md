@@ -281,7 +281,7 @@ During the investigation, I also identified an encoded PowerShell command associ
 
 ![Encoded PowerShell Command](images/ps-eclipse-powershell-encoded.png)
 
-The decoded command revealed the use of `schtasks.exe` to run `OUTSTANDING_GUTTER.exe` with elevated privileges.
+The decoded command revealed that `schtasks.exe` was used to create and run `OUTSTANDING_GUTTER.exe` as `SYSTEM`.
 
 ![Decoded PowerShell Command](images/ps-eclipse-powershell-decoded.png)
 
