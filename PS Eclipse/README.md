@@ -275,6 +275,15 @@ C:\Users\Public\Pictures\blacksun.jpg
 ![Q10](images/ps-eclipse-q10.png)
 
 ---
+## Additional Investigation
+
+During the investigation, I also identified an encoded PowerShell command associated with the malicious activity. I decoded the command using CyberChef to understand its behavior.
+
+![Encoded PowerShell Command](images/ps-eclipse-powershell-encoded.png)
+
+The decoded command revealed the use of `schtasks.exe` to run `OUTSTANDING_GUTTER.exe` with elevated privileges.
+
+![Decoded PowerShell Command](images/ps-eclipse-powershell-decoded.png)
 
 ## Attack Chain
 
