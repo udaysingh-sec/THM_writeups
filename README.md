@@ -30,6 +30,7 @@ This repository documents the concepts, techniques, tools, and investigation met
 | Room | Topics |
 |------|--------|
 | [Benign](./Benign/) | Windows, Splunk, Incident Investigation |
+| [PS Eclipse](./PS%20Eclipse/) | Splunk, Sysmon, PowerShell, Incident Investigation |
 
 ## 📚 What I Document
 
