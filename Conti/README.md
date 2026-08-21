@@ -42,7 +42,7 @@ index=main cmd.exe
 | dedup Image
 | table Image
 ```
-![Q1 Ransomware Location](images/conti-q1.png)
+![Q1 Ransomware Location](images/Conti-q1.png)
 
 ### Finding:
 
@@ -81,7 +81,7 @@ associated with that image and checked the `EventCode` field.
 index=main Image="c:\\Users\\Administrator\\Documents\\cmd.exe"
 | table EventCode
 ```
-![Q2 Sysmon File Creation Event](images/conti-q2.png)
+![Q2 Sysmon File Creation Event](images/Conti-q2.png)
 
 ### Finding:
 
@@ -120,7 +120,7 @@ index=main Image="c:\\Users\\Administrator\\Documents\\cmd.exe"
 | dedup Hashes
 | table Hashes
 ```
-![Q3 Ransomware MD5 Hash](images/conti-q3.png)
+![Q3 Ransomware MD5 Hash](images/Conti-q3.png)
 
 ### Finding:
 
@@ -157,7 +157,7 @@ suspicious `cmd.exe`.
 index=main Image="c:\\Users\\Administrator\\Documents\\cmd.exe"
 | table TargetFilename
 ```
-![Q4 File Saved to Multiple Locations](images/conti-q4.png)
+![Q4 File Saved to Multiple Locations](images/Conti-q4.png)
 
 ### Finding:
 
@@ -199,7 +199,7 @@ user account was created.
 index=main EventCode=4720
 | table Account_Name
 ```
-![Q5 Attacker Created User](images/conti-q5_1.png)
+![Q5 Attacker Created User](images/Conti-q5_1.png)
 
 The investigation revealed the account:
 
@@ -215,7 +215,7 @@ I then searched for process creation events involving that username.
 index=main EventCode=1 securityninja
 | table CommandLine
 ```
-![Q5 Attacker Created User](images/conti-q5_2.png)
+![Q5 Attacker Created User](images/Conti-q5_2.png)
 
 ### Finding
 
@@ -264,7 +264,7 @@ I searched for Event ID 8 and compared the `SourceImage` and
 index="main" EventCode=8
 | table SourceImage TargetImage
 ```
-![Q6 Process Migration](images/conti-q6.png)
+![Q6 Process Migration](images/Conti-q6.png)
 
 ### Finding:
 
@@ -305,7 +305,7 @@ field:
 index="main" EventCode=8
 | table TargetImage
 ```
-![Q7 LSASS Process](images/conti-q7.png)
+![Q7 LSASS Process](images/Conti-q7.png)
 
 ### Finding:
 
@@ -346,7 +346,7 @@ requests involving `.aspx` files and the suspicious source IP.
 ``` spl
 index="main" sourcetype=iis cs_method=POST .aspx s_ip="10.10.10.6"
 ```
-![Q8 Web Shell in IIS Logs](images/conti-q8.png)
+![Q8 Web Shell in IIS Logs](images/Conti-q8.png)
 
 One suspicious request referenced:
 
@@ -392,7 +392,7 @@ index="main" i3gfPctK1c2x.aspx
 | dedup CommandLine
 | table CommandLine
 ```
-![Q9 Web Shell Command Line](images/conti-q9.png)
+![Q9 Web Shell Command Line](images/Conti-q9.png)
 
 ### Finding:
 
