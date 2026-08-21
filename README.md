@@ -29,8 +29,9 @@ This repository documents the concepts, techniques, tools, and investigation met
 
 | Room | Topics |
 |------|--------|
-| [Benign](./Benign/) | Windows, Splunk, Incident Investigation |
+| [Benign](./Benign/) | Windows Event Logs, Splunk, Incident Investigation |
 | [PS Eclipse](./PS%20Eclipse/) | Splunk, Sysmon, PowerShell, Incident Investigation |
+| [Conti](./Conti/) | Splunk, Sysmon, IIS Logs, Windows Event Logs, Incident Investigation |
 
 ## 📚 What I Document
 
